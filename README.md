@@ -1,6 +1,5 @@
 # kanban
-
-> todo management
+todo management
 
 ## Build Setup
 
@@ -29,3 +28,6 @@ npm install --save axios
 npm install --save vuetify
 npm install --save css-loader
 ```
+
+## 環境設定
+`api`を`localhost:9000`で立ち上げとく
