@@ -27,4 +27,5 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 ```
 npm install --save axios
 npm install --save vuetify
+npm install --save css-loader
 ```

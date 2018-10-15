@@ -13,6 +13,7 @@
 </template>
 
 <script>
+import 'vuetify/dist/vuetify.min.css'
   export default {
     data () {
       return {
@@ -20,7 +21,7 @@
         fixed: false,
         miniVariant: false,
         right: true,
-        title: 'TODO List'
+        title: 'KANBAN'
       }
     }
   }

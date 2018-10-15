@@ -5,6 +5,9 @@
           <v-list-item>
             <v-list-tile> 
               <v-list-tile-title class="headline">TODO</v-list-tile-title>
+                <v-btn fab dark color="indigo">
+                   <v-icon dark>add</v-icon>
+                </v-btn>
             </v-list-tile>
           </v-list-item>  
         </v-list>
@@ -28,11 +31,14 @@
         </v-list>
       </v-flex>
 
-      <v-flex md4>
+      <v-flex md3>
         <v-list>
           <v-list-item>
             <v-list-tile> 
               <v-list-tile-title class="headline">PROGRESS</v-list-tile-title>
+                              <v-btn fab dark color="indigo">
+                   <v-icon dark>add</v-icon>
+                </v-btn>
             </v-list-tile>
           </v-list-item>
         </v-list>
@@ -61,6 +67,9 @@
           <v-list-item>
             <v-list-tile> 
               <v-list-tile-title class="headline">DONE</v-list-tile-title>
+                              <v-btn fab dark color="indigo">
+                   <v-icon dark>add</v-icon>
+                </v-btn>
             </v-list-tile>
           </v-list-item>
         </v-list>
@@ -88,6 +97,7 @@
 
 <script>
 import axios from 'axios'
+import 'vuetify/dist/vuetify.min.css'
 let todoApiUrl = process.env.TODO_API_URL || 'http://localhost:9000'
 export default {
   async asyncData (context) {
